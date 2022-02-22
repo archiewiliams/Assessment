@@ -1,0 +1,12 @@
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\bin\Debug\net5.0\myData.deps.json
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\bin\Debug\net5.0\myData.dll
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\bin\Debug\net5.0\ref\myData.dll
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\bin\Debug\net5.0\myData.pdb
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.csproj.AssemblyReference.cache
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.AssemblyInfoInputs.cache
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.AssemblyInfo.cs
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.csproj.CoreCompileInputs.cache
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.dll
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\ref\myData.dll
+C:\Users\archie.williams\Desktop\Git Projects\myDemo\myData\obj\Debug\net5.0\myData.pdb
