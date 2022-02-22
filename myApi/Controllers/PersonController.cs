@@ -25,6 +25,10 @@ namespace myApi.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get all Persons
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]   
         public IActionResult Get()
         {
@@ -43,6 +47,11 @@ namespace myApi.Controllers
             }
         }
 
+        /// <summary>
+        /// Gets person by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet]
         [Route("{id}")]
         public IActionResult GetPerson(int id)
@@ -62,14 +71,27 @@ namespace myApi.Controllers
             }
         }
 
+        /// <summary>
+        /// Posts a new person
+        /// </summary>
+        /// <param name="person"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Create([FromBody]PersonModel person)
         {
             try
             {
-                if (person == null) return BadRequest("Not a valid person.");
+                if (person == null) 
+                {
+                    _logger.LogError("Person object was not valid.");
+                    return BadRequest("Not a valid person.");
+                }
 
-                if (!ModelState.IsValid) return BadRequest("Not a valid person.");
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError("Person object was not valid.");
+                    return BadRequest("Not a valid person.");
+                }
 
                 var mappedPerson = _mapper.Map<PersonDTO>(person);
                 _logger.LogInformation("Passed in a person model, converted it to a DTO and saved.");
